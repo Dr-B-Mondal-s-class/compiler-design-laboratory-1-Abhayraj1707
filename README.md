@@ -129,7 +129,7 @@ Lab 3
     Number of characters entered: 8
 
     Sample Input 2:-
-    56_j q+0#$)
+    59_j q+0#$)
     Sample Output 2:-
     Number of characters entered: 11
 
@@ -373,30 +373,3 @@ LAB 7
     ## 56
     Output File:-output.txt
     aag hu7 qwe123 df ## 56
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-

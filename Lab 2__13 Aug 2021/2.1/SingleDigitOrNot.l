@@ -9,7 +9,7 @@ not_a_digit [A-Za-z0-9]+
 
 %%
 ^{digit} {printf("digit\n"); }
-^{not_a_digit} {printf("not a digit\n"); }
+^{not_a_digit} {printf("Not a digit\n"); }
 %%
 
 main()

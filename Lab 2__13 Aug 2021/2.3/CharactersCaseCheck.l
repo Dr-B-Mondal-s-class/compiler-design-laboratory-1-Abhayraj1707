@@ -8,8 +8,8 @@ both [A-Za-z]+
 
 
 %%
-^{lowercase} {printf("Lowercase characters only\n"); }
-^{uppercase} {printf("Uppercase characters only\n"); }
+^{lowercase} {printf("Lowercase Characters only\n"); }
+^{uppercase} {printf("Uppercase Characters only\n"); }
 ^{both} {printf("Both lowercase and uppercase characters\n"); }
 .* {printf("Other\n"); }
 %%
