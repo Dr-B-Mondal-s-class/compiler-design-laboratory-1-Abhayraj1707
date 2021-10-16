@@ -21,10 +21,10 @@ int main(int argc,char*argv[])
 	yyin=fopen(fileName,"r");
 	yylex();
 	fclose(yyin);
-	printf("Number of characters:%d\n",n);
-	printf("Number of lines:%d\n",n_lines);
-	printf("Number of spaces:%d\n",n_spaces);
-	printf("Number of tabs:%d\n",n_tabs);
+	printf("Number of Characters:%d\n",n);
+	printf("Number of Lines:%d\n",n_lines);
+	printf("Number of Spaces:%d\n",n_spaces);
+	printf("Number of Tabs:%d\n",n_tabs);
 	
 	return 0;
 	

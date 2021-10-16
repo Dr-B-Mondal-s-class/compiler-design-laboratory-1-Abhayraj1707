@@ -8,7 +8,7 @@ all [a-zA-Z]+
 %%
 ^{vowels} {printf("Vowel(s)\n"); }
 ^{consonants} {printf("Consonant(s)\n"); }
-^{all} { printf("Both vowels and consonants\n"); }
+^{all} { printf("Both vowels and consonants are Present\n"); }
 .* { printf("Others\n"); }
 %%
 

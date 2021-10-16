@@ -6,7 +6,7 @@ keyword auto|break|case|char|const|continue|default|do|double|else|enum|extern|f
 
 %%
 {keyword} {printf("%s :- Keyword",yytext);}
-{identifier} {printf("%s :- Valid identifier",yytext);}
+{identifier} {printf("%s :- These are Valid identifier",yytext);}
 .* {printf("%s :- Invalid Identifier",yytext);}
 %%
 

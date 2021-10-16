@@ -34,12 +34,12 @@ int main(int argc,char*argv[])
 	fclose(yyin);
 	
 	printf("The total number of lexems are:- %d\n\n",n);
-	printf("No. of Keywords: %d\n",n_keywords);
-	printf("No. of Identifiers: %d\n",n_identifiers);
-	printf("No. of Operators: %d\n",n_operators);
-	printf("No. of Floats: %d\n",n_floats);
-	printf("No. of Integers: %d\n",n_integers);
-	printf("No. of Separators: %d\n",n_separators);
+	printf("Number of Keywords: %d\n",n_keywords);
+	printf("Number of Identifiers: %d\n",n_identifiers);
+	printf("Number of Operators: %d\n",n_operators);
+	printf("Number of Floats: %d\n",n_floats);
+	printf("Number of Integers: %d\n",n_integers);
+	printf("Number of Separators: %d\n",n_separators);
 
 	
 	return 0;
